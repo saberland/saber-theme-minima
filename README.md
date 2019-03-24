@@ -29,6 +29,12 @@ plugins:
   - resolve: saber-plugin-generate-feed
 ```
 
+## Layouts
+
+- `post`: For blog post pages.
+- `page`: For normal pages.
+- `default`: For any other pages.
+
 ## Site Config
 
 Configure site title, description etc in your `saber-config.yml`:
