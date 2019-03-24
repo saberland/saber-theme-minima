@@ -1,6 +1,6 @@
 # saber-theme-minima
 
-[![npm](https://badgen.net/npm/v/saber-theme-minima)](https://npm.im/saber-theme-minima)
+[![npm](https://badgen.net/npm/v/saber-theme-minima)](https://npm.im/saber-theme-minima) [![circleci](https://badgen.net/circleci/github/egoist/saber-theme-minima/master)](https://circleci.com/gh/egoist/saber-theme-minima)
 
 > A Saber Port of the Default Jekyll Theme: Minima
 
