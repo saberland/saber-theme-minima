@@ -35,7 +35,7 @@ plugins:
 
 - `post`: For blog post pages.
 - `page`: For normal pages.
-- `default`: For any other pages.
+- `default`: For any other pages like homepage and tag pages.
 
 ## Site Config
 
