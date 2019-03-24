@@ -20,5 +20,15 @@
   },
   "dependencies": {
     "tinydate": "^1.0.1"
-  }
+  },
+  "keywords": [
+    "saber",
+    "saber-theme",
+    "minima",
+    "theme",
+    "egoist",
+    "clean",
+    "simple",
+    "jekyll"
+  ]
 }
