@@ -12,7 +12,7 @@
     "generate:example": "saber generate example"
   },
   "devDependencies": {
-    "saber": "^0.2.24",
+    "saber": "^0.2.25",
     "saber-plugin-generate-feed": "^0.0.3",
     "saber-plugin-query-posts": "^0.0.4",
     "sass": "^1.17.3",
