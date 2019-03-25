@@ -83,7 +83,7 @@ themeConfig:
     telegram: username
     microdotblog: username
     googleplus: username
-    rss: true
+    rss: rss
 ```
 
 ### Comments
