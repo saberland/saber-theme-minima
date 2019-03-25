@@ -16,7 +16,12 @@
         <slot name="default"/>
       </div>
 
-      <Disqus v-if="page.attributes.comments !== false && $themeConfig.disqus" :permalink="page.attributes.permalink" :shortname="$themeConfig.disqus" />
+      <Disqus 
+        v-if="page.attributes.comments !== false && $themeConfig.disqus" 
+        :url="$siteConfig.url" 
+        :permalink="page.attributes.permalink" 
+        :shortname="$themeConfig.disqus" 
+      />
 
       <a class="u-url" :href="page.attributes.permalink" hidden></a>
     </article>

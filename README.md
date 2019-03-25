@@ -93,6 +93,10 @@ You can use Disqus:
 ```yml
 themeConfig:
   disqus: disqus-short-name
+
+# Note that `siteConfig.url` is required for Disqus
+siteConfig:
+  url: https://example.com
 ```
 
 Comments are only enabled for `post` layout, to disable comments in specific page, you can use the page attribute `comments`:

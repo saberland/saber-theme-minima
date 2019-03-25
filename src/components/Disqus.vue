@@ -5,6 +5,10 @@
 <script>
 export default {
   props: {
+    url: {
+      type: String,
+      required: true
+    },
     permalink: {
       type: String,
       required: true
@@ -16,9 +20,9 @@ export default {
   },
 
   mounted() {
-    const { permalink } = this
+    const { permalink, url } = this
     window.disqus_config = function() {
-      this.page.url = permalink
+      this.page.url = `${url}${permalink}`
       this.page.identifier = permalink
     }
     const script = document.createElement('script')
