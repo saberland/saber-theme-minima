@@ -16,9 +16,12 @@ export default {
   },
 
   mounted() {
-    const { permalink } = this
+    const {
+      permalink,
+      $siteConfig: { url }
+    } = this
     window.disqus_config = function() {
-      this.page.url = permalink
+      this.page.url = `${url}${permalink}`
       this.page.identifier = permalink
     }
     const script = document.createElement('script')
