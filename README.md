@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-yarn add sass sass-loader saber-theme-minima
+yarn add saber-theme-minima
 ```
 
 In your `saber-config.yml`:

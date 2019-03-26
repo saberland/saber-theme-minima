@@ -50,9 +50,9 @@
 
 <script>
 import { feedURL } from 'saber/variables'
-import formatDate from '../src/utils/formatDate'
-import Wrap from '../src/components/Wrap.vue'
-import getSvg from '../src/utils/getSvg'
+import formatDate from '../utils/formatDate'
+import Wrap from '../components/Wrap.vue'
+import getSvg from '../utils/getSvg'
 
 export default {
   components: {

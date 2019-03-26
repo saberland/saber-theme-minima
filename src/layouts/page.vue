@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Wrap from '../src/components/Wrap.vue'
+import Wrap from '../components/Wrap.vue'
 
 export default {
   components: {

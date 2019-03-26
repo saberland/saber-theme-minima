@@ -1,4 +1,4 @@
-theme: ../
+theme: ../src
 
 siteConfig:
   url: https://minima.saberjs.org
