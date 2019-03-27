@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { feed, feedURL } from 'saber/variables'
+import variables from 'saber/variables'
 import Header from './Header.vue'
 import Footer from './Footer.vue'
 
@@ -40,13 +40,13 @@ export default {
         }
       ].filter(Boolean),
       link:
-        feed &&
+        variables.feed &&
         [
           {
             rel: 'alternate',
             title: `${this.siteTitle} - Feed`,
             type: 'application/json',
-            href: feedURL
+            href: variables.feedURL
           }
         ].filter(Boolean)
     }

@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import { feedURL } from 'saber/variables'
+import variables from 'saber/variables'
 import formatDate from '../utils/formatDate'
 import Wrap from '../components/Wrap.vue'
 import getSvg from '../utils/getSvg'
@@ -63,7 +63,7 @@ export default {
 
   data() {
     return {
-      feedURL
+      feedURL: variables.feedURL
     }
   },
 

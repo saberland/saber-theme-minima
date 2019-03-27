@@ -95,13 +95,13 @@
 </template>
 
 <script>
-import { feedURL } from 'saber/variables'
+import variables from 'saber/variables'
 import getSvg from '../utils/getSvg'
 
 export default {
   data() {
     return {
-      rss: feedURL
+      rss: variables.feedURL
     }
   },
 
