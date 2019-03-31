@@ -4377,20 +4377,22 @@ saber-plugin-generate-feed@^0.0.4:
   resolved "https://registry.npmjs.org/saber-plugin-generate-feed/-/saber-plugin-generate-feed-0.0.4.tgz#de8ff7531046924979a2fb9970f34c7bbe047e23"
   integrity sha512-fg7J0S0Ff1FWLd5K/+ETHQW/2NjN7Mcxdo9ZLacSWKxrXU5gbBgSX6QABc6bfUEJ9r69vdya27TjPCSJY7aO2Q==
 
-saber-plugin-query-posts@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.0.5.tgz#2323bac201b42cb60e94424a2f25374b9e99f41f"
-  integrity sha512-fuStp8tuWYX41onuIAVpBG0u02xNBv1vNpJ1wZ5hQI7DJj0ZAOa6fcIouncaakLAP+oF5uRd5R42rCXzW4DbtA==
+saber-plugin-query-posts@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.0.7.tgz#8c2cfaae1025c63c1ad9a720d1cb13943715a622"
+  integrity sha512-o1cOyBOR2TnLaQFNjRT2wDZHbjWReZRlRs7Pu4CsBK8fn5RpoZqDvgQ6GKgWz4jbj335dBYIqAF9XKaxrgG5Hw==
+  dependencies:
+    url-join "^4.0.0"
 
 saber-utils@^0.0.4:
   version "0.0.4"
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.4.tgz#15b5e3458445a2ef097cc2505dc3bbcbbdf32c9a"
   integrity sha512-U3srXEi7pSj15TgJn60qkY5wsgLoTFT/8oW0iJdZUe7DAybZRZrBK9I0WLWAz0DVx0FdigBd0zQjNmvq5KfGiQ==
 
-saber@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.3.1.tgz#0c969658629be37194345b384d9df1009ebc33a4"
-  integrity sha512-0JRpZiUzfREKNgV6BTAgbIMNxkM6Lu52LpNPKDV6RFYCH9M6jEH+fSoUOs6wa/PIhNdey25E8P/f+YZF3jMSKA==
+saber@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.3.3.tgz#55fb29606d2253d31f3fa880e75e435cf88f132b"
+  integrity sha512-Nf175xsEDtDBV4IlS7KaoJv5FwjyIwV9iB/mkhXu5orDsS1lKbi3ntH78+JG10Qg3qij6SeEHtOqUOZqGVPYsw==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -5078,6 +5080,11 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
+
+url-join@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/url-join/-/url-join-4.0.0.tgz#4d3340e807d3773bda9991f8305acdcc2a665d2a"
+  integrity sha1-TTNA6AfTdzvamZH4MFrNzCpmXSo=
 
 url-loader@^1.1.2:
   version "1.1.2"
