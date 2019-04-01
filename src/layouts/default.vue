@@ -38,11 +38,11 @@
         >Next →</router-link>
       </div>
 
-      <p class="feed-subscribe">
+      <p class="feed-subscribe" v-if="feedLink">
         <svg class="svg-icon orange">
           <use :xlink:href="getSvg('rss')"></use>
         </svg>
-        <a :href="feedURL">Subscribe</a>
+        <a :href="feedLink">Subscribe</a>
       </p>
     </div>
   </Wrap>
@@ -63,7 +63,7 @@ export default {
 
   data() {
     return {
-      feedURL: variables.feedURL
+      feedLink: variables.feedLink
     }
   },
 

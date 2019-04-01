@@ -39,16 +39,22 @@ export default {
           content: description
         }
       ].filter(Boolean),
-      link:
-        variables.feed &&
-        [
-          {
-            rel: 'alternate',
-            title: `${this.siteTitle} - Feed`,
-            type: 'application/json',
-            href: variables.feedURL
-          }
-        ].filter(Boolean)
+      link: variables.feedLink
+        ? [
+            {
+              rel: 'alternate',
+              title: `${this.siteTitle} - Feed`,
+              type: `application/${
+                variables.feedLinkType === 'atom'
+                  ? 'atom+xml'
+                  : variables.feedLinkType === 'rss'
+                  ? 'rss+xml'
+                  : 'json'
+              }`,
+              href: variables.feedLink
+            }
+          ].filter(Boolean)
+        : []
     }
   },
 

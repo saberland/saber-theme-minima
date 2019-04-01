@@ -84,8 +84,8 @@
         </svg>
       </a>
     </li>
-    <li v-if="social.rss">
-      <a :href="rss" title="rss">
+    <li v-if="social.rss && feedLink">
+      <a :href="feedLink" title="rss">
         <svg class="svg-icon grey">
           <use :xlink:href="getSvg('rss')"></use>
         </svg>
@@ -101,7 +101,7 @@ import getSvg from '../utils/getSvg'
 export default {
   data() {
     return {
-      rss: variables.feedURL
+      feedLink: variables.feedLink
     }
   },
 

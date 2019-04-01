@@ -12,8 +12,8 @@
     "generate:example": "saber generate example"
   },
   "devDependencies": {
-    "saber": "^0.3.3",
-    "saber-plugin-generate-feed": "^0.0.4",
+    "saber": "^0.3.4",
+    "saber-plugin-generate-feed": "^0.1.1",
     "saber-plugin-query-posts": "^0.0.7",
     "sass": "^1.17.3",
     "sass-loader": "^7.1.0",
