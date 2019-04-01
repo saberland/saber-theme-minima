@@ -29,6 +29,8 @@ yarn add saber-plugin-query-posts saber-plugin-generate-feed
 plugins:
   - resolve: saber-plugin-query-posts
   - resolve: saber-plugin-generate-feed
+    options:
+      atomFeed: true
 ```
 
 ## Layouts
@@ -83,7 +85,7 @@ themeConfig:
     telegram: username
     microdotblog: username
     googleplus: username
-    rss: rss
+    rss: true 
 ```
 
 ### Comments
