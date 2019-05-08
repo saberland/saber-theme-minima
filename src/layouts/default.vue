@@ -38,18 +38,17 @@
         >Next →</router-link>
       </div>
 
-      <p class="feed-subscribe" v-if="feedLink">
+      <p class="feed-subscribe" v-if="$feed">
         <svg class="svg-icon orange">
           <use :xlink:href="getSvg('rss')"></use>
         </svg>
-        <a :href="feedLink">Subscribe</a>
+        <a :href="$feed.permalink">Subscribe</a>
       </p>
     </div>
   </Wrap>
 </template>
 
 <script>
-import variables from 'saber/variables'
 import formatDate from '../utils/formatDate'
 import Wrap from '../components/Wrap.vue'
 import getSvg from '../utils/getSvg'
@@ -60,12 +59,6 @@ export default {
   },
 
   props: ['page'],
-
-  data() {
-    return {
-      feedLink: variables.feedLink
-    }
-  },
 
   methods: {
     formatDate,

@@ -19,7 +19,7 @@ theme: minima
 This theme is better working with following plugins:
 
 - `saber-plugin-query-posts`: Inject `posts` to homepage's `page` prop, generate tag pages
-- `saber-plugin-generate-feed`: Generate JSON feed at `/feed.json`.
+- `saber-plugin-feed`: Generate feed.
 
 ```bash
 yarn add saber-plugin-query-posts saber-plugin-generate-feed
@@ -28,7 +28,7 @@ yarn add saber-plugin-query-posts saber-plugin-generate-feed
 ```yml
 plugins:
   - resolve: saber-plugin-query-posts
-  - resolve: saber-plugin-generate-feed
+  - resolve: saber-plugin-feed
     options:
       atomFeed: true
 ```
