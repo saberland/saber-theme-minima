@@ -22,7 +22,7 @@ This theme is better working with following plugins:
 - `saber-plugin-feed`: Generate feed.
 
 ```bash
-yarn add saber-plugin-query-posts saber-plugin-generate-feed
+yarn add saber-plugin-query-posts saber-plugin-feed
 ```
 
 ```yml
