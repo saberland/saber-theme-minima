@@ -84,8 +84,8 @@
         </svg>
       </a>
     </li>
-    <li v-if="social.rss && feedLink">
-      <a :href="feedLink" title="rss">
+    <li v-if="social.rss && $feed">
+      <a :href="$feed.permalink" title="rss">
         <svg class="svg-icon grey">
           <use :xlink:href="getSvg('rss')"></use>
         </svg>
@@ -95,16 +95,9 @@
 </template>
 
 <script>
-import variables from 'saber/variables'
 import getSvg from '../utils/getSvg'
 
 export default {
-  data() {
-    return {
-      feedLink: variables.feedLink
-    }
-  },
-
   computed: {
     social() {
       return this.$themeConfig.social
