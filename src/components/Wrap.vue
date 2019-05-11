@@ -24,7 +24,8 @@ export default {
   props: ['page'],
 
   head() {
-    const { title, layout, excerpt } = this.page.attributes
+    const { excerpt } = this.page
+    const { title, layout } = this.page.attributes
     let { description } = this.$siteConfig
     if (layout === 'page' || layout === 'post') {
       if (excerpt) {
