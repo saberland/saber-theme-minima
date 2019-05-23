@@ -16,10 +16,10 @@ In your `saber-config.yml`:
 theme: minima
 ```
 
-This theme is better working with following plugins:
+This theme uses the following [Saber plugins](https://github.com/saberland/awesome-saber#plugins):
 
-- `saber-plugin-query-posts`: Inject `posts` to homepage's `page` prop, generate tag pages
-- `saber-plugin-feed`: Generate feed.
+- `saber-plugin-query-posts`: Inject `posts` to homepage's `page` prop, generate tag pages.
+- `saber-plugin-feed`: Generate RSS feed.
 
 ```bash
 yarn add saber-plugin-query-posts saber-plugin-feed
@@ -41,7 +41,7 @@ plugins:
 
 ## Site Config
 
-Configure site title, description etc in your `saber-config.yml`:
+Configure site title, description etc. in your `saber-config.yml`:
 
 ```yml
 siteConfig:
@@ -90,7 +90,7 @@ themeConfig:
 
 ### Comments
 
-You can use Disqus:
+You can use Disqus for comments:
 
 ```yml
 themeConfig:
