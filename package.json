@@ -11,6 +11,10 @@
     "dev:example": "saber example",
     "generate:example": "saber generate example"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saberland/saber-theme-minima.git"
+  },
   "devDependencies": {
     "saber": "^0.6.0",
     "saber-plugin-feed": "^0.3.0",
