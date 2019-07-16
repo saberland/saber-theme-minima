@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "saber": "^0.6.0",
-    "saber-plugin-feed": "^0.3.0",
+    "saber-plugin-feed": "^0.3.4",
     "saber-plugin-query-posts": "^0.3.0",
     "sass": "^1.17.3",
     "sass-loader": "^7.1.0",
@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "saber": "^0.6.0",
-    "saber-plugin-feed": "^0.3.0",
+    "saber-plugin-feed": "^0.3.4",
     "saber-plugin-query-posts": "^0.3.0"
   },
   "keywords": [
