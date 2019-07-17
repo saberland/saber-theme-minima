@@ -16,7 +16,7 @@
     "url": "https://github.com/saberland/saber-theme-minima.git"
   },
   "devDependencies": {
-    "saber": "^0.6.0",
+    "saber": "^0.6.10",
     "saber-plugin-feed": "^0.3.0",
     "saber-plugin-query-posts": "^0.3.0",
     "sass": "^1.17.3",
@@ -27,7 +27,7 @@
     "tinydate": "^1.0.1"
   },
   "peerDependencies": {
-    "saber": "^0.6.0",
+    "saber": "^0.6.10",
     "saber-plugin-feed": "^0.3.0",
     "saber-plugin-query-posts": "^0.3.0"
   },
