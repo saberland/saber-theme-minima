@@ -4460,10 +4460,10 @@ saber-plugin-feed@^0.3.0:
   dependencies:
     feed "^2.0.4"
 
-saber-plugin-query-posts@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.3.0.tgz#eff9836e3a314437d8a7d1dfc89df0f62e2fd429"
-  integrity sha512-q+6Jm0ksVvxhH9IuxhlRnOlqBzjOatrODA2M/WMYoQUOMxsiDNG7dV/B9Gajl6YFR81i7/+bEOZIyo5o0jOtKQ==
+saber-plugin-query-posts@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.3.2.tgz#750e17a7ecf9574dee80a4464075717cb56e3d56"
+  integrity sha512-uHWJ0nDRkZ91acSraF8ovq3ZO4hgXfQzqWSVPWzrR9JocW2VQ2JOAbt5vJUBtO5PT8myfkysJwk1rhS7mOfjFQ==
   dependencies:
     slugo "^0.2.3"
     url-join "^4.0.0"
