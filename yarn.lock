@@ -927,16 +927,6 @@ acorn-dynamic-import@^4.0.0:
   resolved "https://registry.npmjs.org/acorn-dynamic-import/-/acorn-dynamic-import-4.0.0.tgz#482210140582a36b83c3e342e1cfebcaa9240948"
   integrity sha512-d3OEjQV4ROpoflsnUA8HozoIR504TFxNivYEUi6uwz0IYhBkTDXGuWlNdMtybRt3nqVx/L6XqMt0FxkXuWKZhw==
 
-acorn-es7-plugin@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.npmjs.org/acorn-es7-plugin/-/acorn-es7-plugin-1.1.7.tgz#f2ee1f3228a90eead1245f9ab1922eb2e71d336b"
-  integrity sha1-8u4fMiipDurRJF+asZIusucdM2s=
-
-"acorn@>= 2.5.2 <= 5.7.3":
-  version "5.7.3"
-  resolved "https://registry.npmjs.org/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
-
 acorn@^6.0.5:
   version "6.1.1"
   resolved "https://registry.npmjs.org/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
@@ -1128,9 +1118,9 @@ babel-plugin-transform-vue-jsx@^4.0.1:
   dependencies:
     esutils "^2.0.2"
 
-babel-preset-minimal@^0.1.1:
+babel-preset-minimal@^0.1.2:
   version "0.1.2"
-  resolved "https://registry.npmjs.org/babel-preset-minimal/-/babel-preset-minimal-0.1.2.tgz#3cbd89f25701ed8a209c57d431392afc06095bea"
+  resolved "https://registry.yarnpkg.com/babel-preset-minimal/-/babel-preset-minimal-0.1.2.tgz#3cbd89f25701ed8a209c57d431392afc06095bea"
   integrity sha512-EhRAB/oBjslBiEh+MgvhHvFpkwUiJWGXIcJxf04aZ7lNEzKIxPjDz9zIxN9dz79f9b/wY3OxScwoYyALw2GIUA==
   dependencies:
     "@babel/plugin-proposal-object-rest-spread" "^7.0.0"
@@ -1322,12 +1312,7 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.npmjs.org/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-cac@^6.4.2:
-  version "6.4.2"
-  resolved "https://registry.npmjs.org/cac/-/cac-6.4.2.tgz#6b2a2ab12619b778b3acc19f97e5298761d9c3de"
-  integrity sha512-HM7kl/Izk6pb2HD7z66LVNU52j0xWpBXg8J2MLnOdRMUo2wsrcxu3yRnubnDe/cT0btDzSOl3FPhze09uaT1Vw==
-
-cac@^6.5.1:
+cac@^6.4.2, cac@^6.5.1:
   version "6.5.1"
   resolved "https://registry.npmjs.org/cac/-/cac-6.5.1.tgz#c5685ebc20a8448558191d70a2a76636640308a0"
   integrity sha512-mqKv0Ub/nXSoqlACRvrso3k7+nCdzUNimdh+3l0ywDNt27d/x5s/zEg2Ubf1MrsV5Q/DncxtXhNJLrJN6zq1jQ==
@@ -2265,14 +2250,6 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-fast-async@^6.3.7:
-  version "6.3.8"
-  resolved "https://registry.npmjs.org/fast-async/-/fast-async-6.3.8.tgz#031b9e1d5a84608b117b3e7c999ad477ed2b08a2"
-  integrity sha512-TjlooyqrYm/gOXjD2UHNwfrWkvTbzU105Nk4bvcRTeRoL+wIeK6rqbqDg3CN9z5p37cE2iXhP6SxQFz8OVIaUg==
-  dependencies:
-    nodent-compiler "^3.2.10"
-    nodent-runtime ">=3.2.1"
-
 fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
@@ -2786,14 +2763,7 @@ is-binary-path@^1.0.0:
   dependencies:
     binary-extensions "^1.0.0"
 
-is-binary-path@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.0.0.tgz#0e61cea6974b24dda8bcc8366ce58a69265d1a36"
-  integrity sha1-DmHOppdLJN2ovMg2bOWKaSZdGjY=
-  dependencies:
-    binary-extensions "^1.0.0"
-
-is-binary-path@^2.1.0:
+is-binary-path@^2.0.0, is-binary-path@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
   integrity sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==
@@ -2996,12 +2966,7 @@ javascript-stringify@^2.0.0:
   resolved "https://registry.npmjs.org/javascript-stringify/-/javascript-stringify-2.0.0.tgz#ef750216ae66504ffd670b68c8b8aa07bdf7b588"
   integrity sha512-zzK8+ByrzvOL6N92hRewwUKL0wN0TOaIuUjX0Jj8lraxWvr5wHYs2YTjaj2lstF+8qMv5cmPPef47va8NT8lDw==
 
-joycon@^2.1.2:
-  version "2.2.4"
-  resolved "https://registry.npmjs.org/joycon/-/joycon-2.2.4.tgz#ac4119d2673dfaa89b41efe5d6d670208e348bc6"
-  integrity sha512-Z4G7ZPovoSfAHCSEKznWV4IjyyUxzTY78Sgtr8inbnRxaZMAQGwqNJ46BDwcH3WgIwk0Xt1kpCsC/DFAioRtBA==
-
-joycon@^2.2.4:
+joycon@^2.1.2, joycon@^2.2.4:
   version "2.2.5"
   resolved "https://registry.npmjs.org/joycon/-/joycon-2.2.5.tgz#8d4cf4cbb2544d7b7583c216fcdfec19f6be1615"
   integrity sha512-YqvUxoOcVPnCp0VU1/56f+iKSdvIRJYPznH22BdXV3xMk75SFXhWeJkZ8C9XxUWt1b5x2X1SxuFygW1U0FmkEQ==
@@ -3510,26 +3475,6 @@ node-releases@^1.1.11:
   integrity sha512-8v1j5KfP+s5WOTa1spNUAOfreajQPN12JXbRR0oDE+YrJBQCXBnNqUDj27EKpPLOoSiU3tKi3xGPB+JaOdUEQQ==
   dependencies:
     semver "^5.3.0"
-
-nodent-compiler@^3.2.10:
-  version "3.2.11"
-  resolved "https://registry.npmjs.org/nodent-compiler/-/nodent-compiler-3.2.11.tgz#8f4bc703d7d8d0e563f5e09ea22efdce04dbaf9b"
-  integrity sha512-rfDrGWdgIJYomPUzR8nXiWNuIhJ7cVodPeZP3Ho65LEycuaX2uVNZ0ytpcfrmUKzdFeLRtye9+pHe8OynPZuPQ==
-  dependencies:
-    acorn ">= 2.5.2 <= 5.7.3"
-    acorn-es7-plugin "^1.1.7"
-    nodent-transform "^3.2.9"
-    source-map "^0.5.7"
-
-nodent-runtime@>=3.2.1:
-  version "3.2.1"
-  resolved "https://registry.npmjs.org/nodent-runtime/-/nodent-runtime-3.2.1.tgz#9e2755d85e39f764288f0d4752ebcfe3e541e00e"
-  integrity sha512-7Ws63oC+215smeKJQCxzrK21VFVlCFBkwl0MOObt0HOpVQXs3u483sAmtkF33nNqZ5rSOQjB76fgyPBmAUrtCA==
-
-nodent-transform@^3.2.9:
-  version "3.2.9"
-  resolved "https://registry.npmjs.org/nodent-transform/-/nodent-transform-3.2.9.tgz#ec11a6116b5476e60bc212371cf6b8e4c74f40b6"
-  integrity sha512-4a5FH4WLi+daH/CGD5o/JWRR8W5tlCkd3nrDSkxbOzscJTyTUITltvOJeQjg3HJ1YgEuNyiPhQbvbtRjkQBByQ==
 
 nopt@^4.0.1:
   version "4.0.1"
@@ -4807,7 +4752,7 @@ source-map@0.5.6:
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz#75ce38f52bf0733c5a7f0c118d81334a2bb5f412"
   integrity sha1-dc449SvwczxafwwRjYEzSiu19BI=
 
-source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@^0.5.7:
+source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6:
   version "0.5.7"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
@@ -5328,19 +5273,18 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-compile@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.npmjs.org/vue-compile/-/vue-compile-0.5.1.tgz#48347ee43f732eec4acf2649e0dc037e1da0fa01"
-  integrity sha512-ZCJ81Ezg/8iga47vQIikZrtWh48vd/mnNuscCbZ4/mlbxAo0CfKr782ZsVTjwu0j9kjw+yfdpOB7cACkpnf8og==
+vue-compile@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/vue-compile/-/vue-compile-0.6.0.tgz#bfa9f941a8f1a379a861ad299ac1a249aef7ddc5"
+  integrity sha512-wDecPbYZJ5MYd56I31Ptz7+YzFVM8x01exivWwuofCbeH2+eFnrghYle4N4kuM69U/zl5732y+qwOI2sNQDfvQ==
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/preset-typescript" "^7.0.0"
     "@vue/component-compiler-utils" "^2.3.0"
-    babel-preset-minimal "^0.1.1"
+    babel-preset-minimal "^0.1.2"
     cac "^6.4.2"
     chalk "^2.4.1"
     debug "^3.1.0"
-    fast-async "^6.3.7"
     fast-glob "^2.2.1"
     find-babel-config "^1.1.0"
     fs-extra "^6.0.0"
