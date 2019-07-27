@@ -2,13 +2,13 @@
   <Wrap :page="page">
     <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
-        <h1 class="post-title p-name" itemprop="name headline">{{ page.attributes.title }}</h1>
+        <h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1>
         <p class="post-meta">
           <time
             class="dt-published"
-            :datetime="page.attributes.createdAt"
+            :datetime="page.createdAt"
             itemprop="datePublished"
-          >{{ formatDate(page.attributes.createdAt) }}</time>
+          >{{ formatDate(page.createdAt) }}</time>
         </p>
       </header>
 
@@ -17,13 +17,13 @@
       </div>
 
       <Disqus 
-        v-if="page.attributes.comments !== false && $themeConfig.disqus" 
+        v-if="page.comments !== false && $themeConfig.disqus" 
         :url="$siteConfig.url" 
-        :permalink="page.attributes.permalink" 
+        :permalink="page.permalink" 
         :shortname="$themeConfig.disqus" 
       />
 
-      <a class="u-url" :href="page.attributes.permalink" hidden></a>
+      <a class="u-url" :href="page.permalink" hidden></a>
     </article>
   </Wrap>
 </template>

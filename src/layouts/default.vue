@@ -1,14 +1,14 @@
 <template>
   <Wrap :page="page">
     <div class="home">
-      <h1 class="page-heading" v-if="page.attributes.title">{{ page.title }}</h1>
+      <h1 class="page-heading" v-if="page.title">{{ page.title }}</h1>
 
       <slot name="default"></slot>
 
       <h2
         class="post-list-heading"
         v-if="page.posts && page.posts.length > 0"
-      >{{ page.attributes.listTitle || 'Posts' }}</h2>
+      >{{ page.listTitle || 'Posts' }}</h2>
 
       <ul class="post-list" v-if="page.posts && page.posts.length > 0">
         <li v-for="post in page.posts" :key="post.attributes.permalink">

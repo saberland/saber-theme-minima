@@ -2,7 +2,7 @@
   <Wrap :page="page">
     <article class="post">
       <header class="post-header">
-        <h1 class="post-title">{{ page.attributes.title }}</h1>
+        <h1 class="post-title">{{ page.title }}</h1>
       </header>
 
       <div class="post-content">

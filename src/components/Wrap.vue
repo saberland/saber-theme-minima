@@ -25,7 +25,7 @@ export default {
 
   head() {
     const { excerpt } = this.page
-    const { title, layout } = this.page.attributes
+    const { title, layout } = this.page
     let { description } = this.$siteConfig
     if (layout === 'page' || layout === 'post') {
       if (excerpt) {
