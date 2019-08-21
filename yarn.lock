@@ -5176,10 +5176,10 @@ saber-markdown@^0.1.0:
   resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.1.0.tgz#97daf5e7d48f67e7cb60f3f7335c16082474b18b"
   integrity sha512-qI02wHTH4LUXiX6guP5o5E2u08OQUjxNHBETAK5J4PxRvudQPgUzGcaEbGeg1WEI+WbpvOBLd/rZviZWCXNEDA==
 
-saber-plugin-feed@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/saber-plugin-feed/-/saber-plugin-feed-0.4.0.tgz#38be9c2afb713254d41a4ce5db182e801e70322a"
-  integrity sha512-xjsFYGuvE9KE5ZyseCPJTytgC79hD9oIxHWJTJJXNVFFQ/6JsoCU+h5lI6g+G3VdmB7S2D/aYKP8CqkBp67c6g==
+saber-plugin-feed@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/saber-plugin-feed/-/saber-plugin-feed-0.4.1.tgz#acfeae376ab1e24ba1ab73d45eafd92bdfdbb0d6"
+  integrity sha512-JpLLwdhj3LaGYOTFPUHAFlsK4d6BTbVcNaC1304UY/wodtq7/YM9QtVP9pIdGVzU/qBvfaq/Pr4kRXhxTvWWIw==
   dependencies:
     feed "^4.0.0"
 
