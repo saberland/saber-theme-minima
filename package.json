@@ -18,7 +18,7 @@
   "devDependencies": {
     "saber": "^0.8.1",
     "saber-plugin-feed": "^0.4.1",
-    "saber-plugin-query-posts": "^0.4.1",
+    "saber-plugin-query-posts": "^0.4.2",
     "sass": "^1.22.10",
     "sass-loader": "^8.0.0",
     "vue-compile": "^0.6.0"
@@ -29,7 +29,7 @@
   "peerDependencies": {
     "saber": "^0.8.1",
     "saber-plugin-feed": "^0.4.1",
-    "saber-plugin-query-posts": "^0.4.1"
+    "saber-plugin-query-posts": "^0.4.2"
   },
   "keywords": [
     "saber",
