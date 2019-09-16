@@ -19,7 +19,7 @@
     "saber": "^0.8.1",
     "saber-plugin-feed": "^0.4.2",
     "saber-plugin-query-posts": "^0.4.2",
-    "sass": "^1.22.10",
+    "sass": "^1.22.12",
     "sass-loader": "^8.0.0",
     "vue-compile": "^0.6.0"
   },
