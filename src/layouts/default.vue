@@ -11,13 +11,13 @@
       >{{ page.listTitle || 'Posts' }}</h2>
 
       <ul class="post-list" v-if="page.posts && page.posts.length > 0">
-        <li v-for="post in page.posts" :key="post.attributes.permalink">
-          <span class="post-meta">{{ formatDate(post.attributes.createdAt) }}</span>
+        <li v-for="post in page.posts" :key="post.permalink">
+          <span class="post-meta">{{ formatDate(post.createdAt) }}</span>
           <h3>
             <saber-link
               class="post-link"
-              :to="post.attributes.permalink"
-            >{{ post.attributes.title }}</saber-link>
+              :to="post.permalink"
+            >{{ post.title }}</saber-link>
           </h3>
         </li>
       </ul>

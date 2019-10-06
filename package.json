@@ -9,16 +9,16 @@
     "build": "vue-compile src -o dist",
     "prepublishOnly": "yarn build",
     "dev:example": "saber example",
-    "generate:example": "saber generate example"
+    "build:example": "saber build example"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/saberland/saber-theme-minima.git"
   },
   "devDependencies": {
-    "saber": "^0.9.0",
+    "saber": "^0.10.3",
     "saber-plugin-feed": "^0.4.2",
-    "saber-plugin-query-posts": "^0.4.2",
+    "saber-plugin-query-posts": "^0.4.4",
     "sass": "^1.22.12",
     "sass-loader": "^8.0.0",
     "vue-compile": "^0.6.0"
@@ -27,9 +27,9 @@
     "tinydate": "^1.2.0"
   },
   "peerDependencies": {
-    "saber": "^0.9.0",
+    "saber": "^0.10.3",
     "saber-plugin-feed": "^0.4.2",
-    "saber-plugin-query-posts": "^0.4.2"
+    "saber-plugin-query-posts": "^0.4.4"
   },
   "keywords": [
     "saber",
