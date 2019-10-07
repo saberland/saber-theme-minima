@@ -5301,10 +5301,10 @@ saber-plugin-feed@^0.4.2:
   dependencies:
     feed "^4.0.0"
 
-saber-plugin-query-posts@^0.4.4:
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.4.4.tgz#b39104323f5b88eb9fe20b384e83132b646cebfd"
-  integrity sha512-DxW/d1vQ7UbVULv7y8kSHTPblxPfLsVw1ACSSE7Nu6U9nVFL3/ikzIh8K+sbe/Rt5+oJFzYZ1RkKkZoORif9Zg==
+saber-plugin-query-posts@^0.4.5:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.4.5.tgz#7f217f750734e257c9052604055d24560515b883"
+  integrity sha512-k5KT4bkLC5sbt8vXLNlk4H9KZ0b1N/sLDsqLFo/A7/bHLfsxmRoXPBH1MBlzRUg+BOAhTfr516CpARepkj5pMA==
   dependencies:
     slugo "^0.3.1"
     url-join "^4.0.0"
