@@ -38,11 +38,11 @@
         >Next →</router-link>
       </div>
 
-      <p class="feed-subscribe" v-if="$feed">
+      <p class="feed-subscribe" v-if="feedLink">
         <svg class="svg-icon orange">
           <use :xlink:href="getSvg('rss')"></use>
         </svg>
-        <a :href="$feed.permalink">Subscribe</a>
+        <a :href="feedLink">Subscribe</a>
       </p>
     </div>
   </Wrap>
@@ -59,6 +59,12 @@ export default {
   },
 
   props: ['page'],
+
+  computed: {
+    feedLink() {
+      return this.$feed && this.$feed.permalink
+    }
+  },
 
   methods: {
     formatDate,

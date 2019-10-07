@@ -84,8 +84,8 @@
         </svg>
       </a>
     </li>
-    <li v-if="social.rss && $feed">
-      <a :href="$feed.permalink" title="rss">
+    <li v-if="social.rss && feed">
+      <a :href="feed.permalink" title="rss">
         <svg class="svg-icon grey">
           <use :xlink:href="getSvg('rss')"></use>
         </svg>
@@ -101,6 +101,10 @@ export default {
   computed: {
     social() {
       return this.$themeConfig.social || {}
+    },
+
+    feed() {
+      return this.$feed
     }
   },
 
