@@ -12,7 +12,7 @@
         <svg class="svg-icon grey">
           <use :xlink:href="getSvg('facebook')"></use>
         </svg>
-      </a>
+      </a> 
     </li>
     <li v-if="social.flickr">
       <a :href="`https://www.flickr.com/photos/${social.flickr}`" :title="social.flickr">
@@ -100,7 +100,7 @@ import getSvg from '../utils/getSvg'
 export default {
   computed: {
     social() {
-      return this.$themeConfig.social
+      return this.$themeConfig.social || {}
     }
   },
 
