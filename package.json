@@ -24,7 +24,7 @@
     "vue-compile": "^0.6.0"
   },
   "dependencies": {
-    "tinydate": "^1.2.0"
+    "tinydate": "^1.3.0"
   },
   "peerDependencies": {
     "saber": "^0.10.4",
